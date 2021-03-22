@@ -1,0 +1,186 @@
+.about {
+  position: relative;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.6)
+    ),
+    url("/img/background.jpg") center top;
+  background-size: cover;
+
+  .text-secondary {
+    font-size: 1.4rem;
+    font-style: italic;
+  }
+  /*-------------Bio Section----------------*/
+  .bio {
+    max-width: 85%;
+    margin: 3rem auto;
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      max-width: 70%;
+      line-height: 1.2;
+      margin-left: 1rem;
+      font-size: 0.8em;
+    }
+  }
+
+  &__bio-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /*-------------Languages Section----------------*/
+  .languages {
+    margin: 1rem auto;
+    max-width: 90%;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-style: italic;
+    }
+
+    &__pic-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      figure {
+        margin: 0 1.2rem;
+      }
+
+      figcaption {
+        text-align: center;
+        margin-top: 0.5em;
+      }
+
+      img {
+        width: 60px;
+      }
+    }
+  }
+
+  /*-------------Education Section----------------*/
+
+  .edu {
+    width: 80vw;
+    margin: 0rem auto;
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.12);
+
+    &__title {
+      padding: 1rem;
+    }
+
+    &__institution {
+      flex-direction: column;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__info {
+        max-width: 80%;
+        margin: 0.5rem 0;
+        padding-left: 1rem;
+        line-height: 1.5;
+
+        p {
+          font-size: 1.1rem;
+        }
+      }
+
+      img {
+        width: 200px;
+        margin: auto 1rem;
+        height: 160px;
+      }
+
+      h4 {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  /*-------------Jobs Section----------------*/
+
+  .jobs {
+    width: 80vw;
+    margin: 2rem auto;
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.12);
+
+    &__title {
+      padding: 1rem;
+    }
+
+    &__job {
+      p {
+        line-height: 1.5;
+        font-size: 1.1rem;
+        max-width: 90%;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0.5rem 0;
+        padding-left: 1rem;
+      }
+      h4 {
+        margin: 0.7rem 0;
+        padding-left: 1rem;
+        font-size: 1.2rem;
+      }
+    }
+
+    &__institution {
+      margin-bottom: 3rem;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 200px;
+        padding-right: 1rem;
+        height: 160px;
+      }
+    }
+  }
+
+  hr {
+    max-width: 50%;
+    margin: 2rem auto;
+  }
+}
+
+.to-top {
+  position: fixed;
+  right: 1.1rem;
+  bottom: 1.5rem;
+  transform: rotate(90deg);
+  cursor: pointer;
+
+  img {
+    z-index: 100;
+    width: 40px;
+    padding: 0.2rem;
+  }
+}
