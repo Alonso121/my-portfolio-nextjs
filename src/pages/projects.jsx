@@ -1,12 +1,19 @@
 import Link from "next/link"
-
+import Head from 'next/head'
 const Projects = () => {
     return (
         <div>
+          <Head>
+            <title>My Projects</title>
+            <meta
+              name="description"
+              content="Here are my personal projects. Feel free to have a look at them!"
+            />
+          </Head>
             <main>
             <section className="projects">
               <div className="projects__bio-image">
-                <h1 className="text-secondary">My Projects</h1>
+                <h1 className="text-secondary">My Personal Projects</h1>
               </div>
 
               <div className="projects__items">

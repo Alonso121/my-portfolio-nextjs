@@ -5,7 +5,10 @@ export default function Home() {
     <div>
       <Head>
         <title>Alison Tahiri Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="Hey! I am Alison Tahiri. Welcome to the landing page of my personal website!"
+        />
       </Head>
 
       <main>
@@ -18,8 +21,6 @@ export default function Home() {
           <footer>&copy; Copyright 2021</footer>
         </section>
       </main>
-
-
     </div>
   );
 }

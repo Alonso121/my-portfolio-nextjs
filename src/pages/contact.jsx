@@ -1,8 +1,14 @@
-
+import Head from "next/head"
 const Contact = () => {
     return (
         <div>
-            
+         <Head>
+            <title>My contact page</title>
+            <meta
+              name="description"
+              content="Hey guys. Here are my contact details. Let's discuss our next project or simply say hi!"
+            />
+          </Head>   
 
     <main>
       <section className="contact">

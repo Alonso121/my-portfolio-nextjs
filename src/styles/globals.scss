@@ -43,26 +43,26 @@ header {
 main {
   height: 100%;
   width: 100%;
+}
 
-  .social-icons {
-    position: fixed;
-    bottom: 0.7rem;
-    left: 1rem;
-    display: flex;
-    flex-direction: column-reverse;
+.social-icons {
+  position: fixed;
+  bottom: 0.7rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
 
-    a {
-      padding: 0.3rem;
-      @include transition-ease;
+  a {
+    padding: 0.3rem;
+    @include transition-ease;
 
-      .fa-2x {
-        width: 30px;
-        height: 30px;
-      }
+    .fa-2x {
+      width: 30px;
+      height: 30px;
+    }
 
-      &:hover {
-        color: $secondary-color;
-      }
+    &:hover {
+      color: $secondary-color;
     }
   }
 }

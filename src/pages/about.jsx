@@ -1,9 +1,16 @@
 import Link from "next/link"
+import Head from 'next/head'
 
 const About = () => {
     return (
         <div>
-            
+            <Head>
+            <title>About me</title>
+            <meta
+              name="description"
+              content="Here is a brief description of my professional life. Check it out, something might interest you!"
+            />
+          </Head>
     <main>
       <section className="about">
         <div className="bio">
