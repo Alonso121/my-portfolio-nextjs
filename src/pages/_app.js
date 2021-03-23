@@ -4,7 +4,7 @@ import Icons from "../components/Icons";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <main>
+    <main lang="en">
       <Nav />
       <Component {...pageProps} />
       <Icons />

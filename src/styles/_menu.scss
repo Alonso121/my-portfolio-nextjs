@@ -14,7 +14,7 @@
     top: 0.5rem;
     width: 28px;
     height: 3px;
-    background: set-text-color($primary-color);
+    background: $secondary-color;
     @include transition-ease;
 
     &::before {

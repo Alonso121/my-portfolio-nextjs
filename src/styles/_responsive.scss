@@ -46,6 +46,11 @@
   }
   main .social-icons a img {
     width: 50px !important;
+    height: 50px !important;
+  }
+
+  .contact__list {
+    font-size: 1.5rem;
   }
 
   .to-top img {
@@ -59,16 +64,5 @@
     &__items {
       grid-template-columns: repeat(3, 1fr);
     }
-  }
-
-  main .social-icons a img {
-    width: 50px !important;
-    left: 5rem !important;
-  }
-
-  .to-top img {
-    width: 60px;
-    padding: 0.2rem;
-    right: 5rem;
   }
 }

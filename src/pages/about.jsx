@@ -11,7 +11,7 @@ const About = () => {
           <div className="about__bio">
             <img
               className="about__bio-image"
-              src="img/alison-foto.jpg"
+              src="img/alison-foto.png"
               alt="My own picture"
             />
             <p>
@@ -64,7 +64,9 @@ const About = () => {
                 web development.
               </p>
             </div>
-            <img src="img/codecademy.png" alt="Codecademy Diploma" />
+            <Link href="/img/codecademy.png">
+            <img src="img/codecademy1.png" alt="Codecademy Diploma" />
+            </Link>
           </div>
           <div className="edu__institution">
             <div className="edu__institution__info">
@@ -76,7 +78,9 @@ const About = () => {
                 adds for maximizing our website visits etc.
               </p>
             </div>
-            <img src="img/google.jpg" alt="Google diploma" />
+            <Link href="/img/google.jpg">
+            <img src="img/google1.jpg" alt="Google diploma" />
+            </Link>
           </div>
           <div className="edu__institution">
             <div className="edu__institution__info">
@@ -90,10 +94,12 @@ const About = () => {
                 collaboration.
               </p>
             </div>
+            <Link href="/img/eu-certificate.jpg">
             <img
-              src="img/eu-certificate.jpg"
+              src="img/eu-certificate1.jpg"
               alt="Metropolitan University Diploma"
             />
+            </Link>
           </div>
           <div className="edu__institution">
             <div className="edu__institution__info">
@@ -105,7 +111,9 @@ const About = () => {
                 but also in organizing my other aspects of my life.
               </p>
             </div>
-            <img src="img/suny.jpg" alt="State University Diploma" />
+            <Link href="/img/suny.jpg">
+            <img src="img/suny1.jpg" alt="State University Diploma" />
+            </Link>
           </div>
         </div>
 
