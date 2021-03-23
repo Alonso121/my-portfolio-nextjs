@@ -24,6 +24,7 @@ const Projects = () => {
                       href="https://my-awesome-recipe-finder.netlify.app"
                       target="_blank"
                       className="projects__btn"
+                      rel="noreferrer"
                     >
                       <i className="fas fa-eye"></i> Preview
                     </a>
@@ -31,6 +32,7 @@ const Projects = () => {
                       href="https://github.com/Alonso121/recipes-app"
                       target="_blank"
                       className="projects__btn"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-github"></i> Github
                     </a>
@@ -44,6 +46,7 @@ const Projects = () => {
                       href="https://the-simple-task.herokuapp.com/signin"
                       className="projects__btn"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fas fa-eye"></i> Preview
                     </a>
@@ -51,6 +54,7 @@ const Projects = () => {
                       href="https://github.com/Alonso121/Simple-Task"
                       className="projects__btn"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-github"></i> Github
                     </a>
@@ -64,6 +68,7 @@ const Projects = () => {
                       href="https://the-instagraham.herokuapp.com"
                       target="_blank"
                       className="projects__btn"
+                      rel="noreferrer"
                     >
                       <i className="fas fa-eye"></i> Preview
                     </a>
@@ -71,6 +76,7 @@ const Projects = () => {
                       href="https://github.com/Alonso121/The-InstaGraham"
                       target="_blank"
                       className="projects__btn"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-github"></i> Github
                     </a>
@@ -83,6 +89,7 @@ const Projects = () => {
                       href="https://alonsos-jamming.surge.sh"
                       className="projects__btn"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fas fa-eye"></i> Preview
                     </a>
@@ -95,6 +102,7 @@ const Projects = () => {
                       href="https://6058b42539397c00d6f56dfa--determined-neumann-a69a3c.netlify.app"
                       target="_blank"
                       className="projects__btn"
+                      rel="noreferrer"
                     >
                       <i className="fas fa-eye"></i> Preview
                     </a>
@@ -102,6 +110,7 @@ const Projects = () => {
                       href="https://github.com/Alonso121/flexboxBusinessSite"
                       className="projects__btn"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-github"></i> Github
                     </a>
@@ -120,6 +129,7 @@ const Projects = () => {
                       href="https://github.com/Alonso121/teaCozyProject"
                       className="projects__btn"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-github"></i> Github
                     </a>

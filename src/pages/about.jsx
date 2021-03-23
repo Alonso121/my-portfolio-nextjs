@@ -53,7 +53,7 @@ const About = () => {
               <figcaption>NodeJs</figcaption>
             </figure>
             <figure>
-              <img src="img/mongodb.svg" alt="mongodb icon" />
+              <img src="img/mongo.png" alt="mongodb icon" />
               <figcaption>MongoDB</figcaption>
             </figure>
           </div>
@@ -64,7 +64,7 @@ const About = () => {
           <div className="edu__institution">
             <div className="edu__institution__info">
               <h2 className="text-secondary">December 2020</h2>
-              <h4>Codecademy</h4>
+              <h3>Codecademy</h3>
               <p>
                 At Codecademy I learned a great deal about coding. It helped me
                 greatly improve my coding skills and recall the foundations of
@@ -78,7 +78,7 @@ const About = () => {
           <div className="edu__institution">
             <div className="edu__institution__info">
               <h2 className="text-secondary">Fundamentals of Digital Marketing</h2>
-              <h4>Google Digital Garage</h4>
+              <h3>Google Digital Garage</h3>
               <p>
                 In this course I learned about different online marketing
                 strategies, how to use online search engines or social media
@@ -94,7 +94,7 @@ const About = () => {
               <h2 className="text-secondary">
                 Certificate in European Union Projects
               </h2>
-              <h4>Metropolitan University Tirana</h4>
+              <h3>Metropolitan University Tirana</h3>
               <p>
                 This course helped me a great deal with time management,
                 structuring and organization of writing projects and team
@@ -111,7 +111,7 @@ const About = () => {
           <div className="edu__institution">
             <div className="edu__institution__info">
               <h2 className="text-secondary">Bachelor in Management</h2>
-              <h4>Empire State College</h4>
+              <h3>Empire State College</h3>
               <p>
                 In this institution, I learned about the foundations of
                 Management which helped me not only in my professional career
