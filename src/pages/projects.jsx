@@ -10,18 +10,26 @@ const Projects = () => {
               </div>
 
               <div className="projects__items">
-                <div className="projects__item">
-                  <img src="img/jamming.jpg" alt="Jamming Project" />
+              <div className="projects__item">
+                  <img src="img/recipe-finder.jpg" alt="Recipe-finder Project" />
                   <div className="projects__btns">
                     <a
-                      href="https://alonsos-jamming.surge.sh"
-                      className="projects__btn"
+                      href="https://my-awesome-recipe-finder.netlify.app"
                       target="_blank"
+                      className="projects__btn"
                     >
                       <i className="fas fa-eye"></i> Preview
                     </a>
+                    <a
+                      href="https://github.com/Alonso121/recipes-app"
+                      target="_blank"
+                      className="projects__btn"
+                    >
+                      <i className="fab fa-github"></i> Github
+                    </a>
                   </div>
                 </div>
+                
                 <div className="projects__item">
                   <img src="img/Simple-Task-App.png" alt="Simple-Task-App Project" />
                   <div className="projects__btns">
@@ -41,22 +49,35 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
+                
                 <div className="projects__item">
-                  <img src="img/recipe-finder.jpg" alt="Recipe-finder Project" />
+                  <img src="img/instagraham.jpg" alt="Instagraham Project" />
                   <div className="projects__btns">
                     <a
-                      href="https://my-awesome-recipe-finder.netlify.app"
+                      href="https://the-instagraham.herokuapp.com"
                       target="_blank"
                       className="projects__btn"
                     >
                       <i className="fas fa-eye"></i> Preview
                     </a>
                     <a
-                      href="https://github.com/Alonso121/recipes-app"
+                      href="https://github.com/Alonso121/The-InstaGraham"
                       target="_blank"
                       className="projects__btn"
                     >
                       <i className="fab fa-github"></i> Github
+                    </a>
+                  </div>
+                </div>
+                <div className="projects__item">
+                  <img src="img/jamming.jpg" alt="Jamming Project" />
+                  <div className="projects__btns">
+                    <a
+                      href="https://alonsos-jamming.surge.sh"
+                      className="projects__btn"
+                      target="_blank"
+                    >
+                      <i className="fas fa-eye"></i> Preview
                     </a>
                   </div>
                 </div>
@@ -97,25 +118,7 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
-                <div className="projects__item">
-                  <img src="img/instagraham.jpg" alt="Instagraham Project" />
-                  <div className="projects__btns">
-                    <a
-                      href="https://the-instagraham.herokuapp.com"
-                      target="_blank"
-                      className="projects__btn"
-                    >
-                      <i className="fas fa-eye"></i> Preview
-                    </a>
-                    <a
-                      href="https://github.com/Alonso121/The-InstaGraham"
-                      target="_blank"
-                      className="projects__btn"
-                    >
-                      <i className="fab fa-github"></i> Github
-                    </a>
-                  </div>
-                </div>
+                
               </div>
               <Link href="">
         <div className="to-top">
