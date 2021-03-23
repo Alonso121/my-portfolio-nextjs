@@ -17,7 +17,7 @@ const Contact = () => {
         <ul className="contact__list">
           <li>
             <i className="fas fa-envelope"></i> Email
-            <div className="text-secondary">alison.tahiri@gmail.com</div>
+            <div className="text-secondary"><a href="mailto:alison.tahiri@gmail.com">alison.tahiri@gmail.com</a></div>
           </li>
           <li>
             <i className="fas fa-mobile-alt"></i> Phone

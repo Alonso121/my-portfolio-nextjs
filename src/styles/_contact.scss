@@ -27,4 +27,11 @@
       margin: 1rem;
     }
   }
+
+  .text-secondary a {
+    color: $secondary-color;
+  }
+  .text-secondary a:hover {
+    color: lighten($secondary-color, 15%);
+  }
 }
