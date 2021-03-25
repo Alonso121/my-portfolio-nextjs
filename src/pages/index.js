@@ -9,6 +9,10 @@ export default function Home() {
           name="description"
           content="Hey! I am Alison Tahiri. Welcome to the landing page of my personal website!"
         />
+        <meta
+          name="google-site-verification"
+          content="-lJNVr3o0jZMLkp20jI4Ker-ZayzmMgzvw9LuaeLO8c"
+        />
       </Head>
 
       <main>
