@@ -17,7 +17,7 @@ export default function Home() {
 
       <main>
         <section className="home">
-          <h2>Hi! My Name Is</h2>
+          <h2>Hi! My name is</h2>
           <h1 className="home__name">
             Alison <span className="home__name--last">Tahiri</span>
           </h1>
