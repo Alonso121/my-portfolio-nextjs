@@ -42,7 +42,7 @@ $secondary-color: #ffc29a;
   }
 }
 @mixin media-xl {
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1350px) {
     @content;
   }
 }
