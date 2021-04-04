@@ -30,7 +30,7 @@ const Projects = () => {
                       <i className="fas fa-eye"></i> Preview
                     </a>
                   </div>
-                  <p className="projects__description">Full stack e-commerce project made with Next-js, Strapi, Mongo DB and Snipcart. Git repo is private.</p>
+                  <p className="projects__description">Full stack e-commerce project made with Next-js, Strapi, Mongo DB, Snipcart and Tailwind css. Git repo is private.</p>
                 </div>
 
               <div className="projects__item">
@@ -76,7 +76,7 @@ const Projects = () => {
                       <i className="fab fa-github"></i> Github
                     </a>
                   </div>
-                  <p className="projects__description">Tasks organizer React App integrated with mongo DB to save Tasks on the go.</p>
+                  <p className="projects__description">Tasks organizer React + ExpressJs App integrated with Mongo DB to save Tasks on the go. Let 30s to load preview.</p>
                 </div>
                 
                 
@@ -124,7 +124,7 @@ const Projects = () => {
                       <i className="fab fa-github"></i> Github
                     </a>
                   </div>
-                  <p className="projects__description">Basic copy of Instagram to learn about database integration and authentication. (React + mongoDB). Let 30s to load preview.</p>
+                  <p className="projects__description">Basic copy of Instagram to learn about database integration and authentication. (React + Express JS + MongoDB). Let 30s to load preview.</p>
                 </div>
 
                 <div className="projects__item">

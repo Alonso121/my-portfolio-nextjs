@@ -17,12 +17,7 @@
   /*-------------Bio Section----------------*/
   .bio {
     max-width: 85%;
-    margin: 3rem auto;
-
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 2rem;
-    }
+    margin: 6rem auto 3rem auto;
   }
 
   &__bio {
@@ -63,7 +58,7 @@
       flex-wrap: wrap;
 
       figure {
-        margin: 0 1.2rem;
+        margin: 0.5rem 1.2rem;
       }
 
       figcaption {

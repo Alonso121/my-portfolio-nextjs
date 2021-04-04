@@ -14,7 +14,6 @@ const About = () => {
     <main>
       <section className="about">
         <div className="bio">
-          <h1>BIO</h1>
           <div className="about__bio">
             <img
               className="about__bio-image"

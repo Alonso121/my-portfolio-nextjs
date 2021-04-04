@@ -7,6 +7,15 @@ $secondary-color: #ffc29a;
   padding: 0;
 }
 
+@mixin linear-gradient($url) {
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.5),
+      rgba($primary-color, 0.3)
+    ),
+    url($url) center top;
+}
+
 @mixin transition-ease {
   transition: all 0.5s ease-in-out;
 }
