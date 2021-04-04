@@ -17,6 +17,22 @@ const Projects = () => {
               </div>
 
               <div className="projects__items">
+
+              <div className="projects__item">
+                  <img src="img/dardha.png" alt="Dardha-al website" />
+                  <div className="projects__btns">
+                    <a
+                      href="https://dardha-al.vercel.app/"
+                      className="projects__btn"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fas fa-eye"></i> Preview
+                    </a>
+                  </div>
+                  <p className="projects__description">Full stack e-commerce project made with Next-js, Strapi, Mongo DB and Snipcart. Git repo is private.</p>
+                </div>
+
               <div className="projects__item">
                   <img src="img/recipe-finder.jpg" alt="Recipe-finder Project" />
                   <div className="projects__btns">
@@ -37,6 +53,7 @@ const Projects = () => {
                       <i className="fab fa-github"></i> Github
                     </a>
                   </div>
+                  <p className="projects__description">Simple React App which calls a recipe API based on user specifications.</p>
                 </div>
                 
                 <div className="projects__item">
@@ -59,42 +76,11 @@ const Projects = () => {
                       <i className="fab fa-github"></i> Github
                     </a>
                   </div>
+                  <p className="projects__description">Tasks organizer React App integrated with mongo DB to save Tasks on the go.</p>
                 </div>
                 
-                <div className="projects__item">
-                  <img src="img/instagraham.jpg" alt="Instagraham Project" />
-                  <div className="projects__btns">
-                    <a
-                      href="https://the-instagraham.herokuapp.com"
-                      target="_blank"
-                      className="projects__btn"
-                      rel="noreferrer"
-                    >
-                      <i className="fas fa-eye"></i> Preview
-                    </a>
-                    <a
-                      href="https://github.com/Alonso121/The-InstaGraham"
-                      target="_blank"
-                      className="projects__btn"
-                      rel="noreferrer"
-                    >
-                      <i className="fab fa-github"></i> Github
-                    </a>
-                  </div>
-                </div>
-                <div className="projects__item">
-                  <img src="img/jamming.jpg" alt="Jamming Project" />
-                  <div className="projects__btns">
-                    <a
-                      href="https://alonsos-jamming.surge.sh"
-                      className="projects__btn"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="fas fa-eye"></i> Preview
-                    </a>
-                  </div>
-                </div>
+                
+
                 <div className="projects__item">
                   <img src="img/flexbox-site.jpg" alt="My flexbox-site Project" />
                   <div className="projects__btns">
@@ -115,18 +101,37 @@ const Projects = () => {
                       <i className="fab fa-github"></i> Github
                     </a>
                   </div>
+                  <p className="projects__description">My first responsive website with HTML and CSS with unoptimized images. New version comming soon!</p>
                 </div>
+
                 <div className="projects__item">
-                  <img src="img/tea-cozy.jpg" alt="tea-cozy Project" />
+                  <img src="img/instagraham.jpg" alt="Instagraham Project" />
                   <div className="projects__btns">
                     <a
-                      href="https://hungry-kowalevski-a36c43.netlify.app"
+                      href="https://the-instagraham.herokuapp.com"
+                      target="_blank"
                       className="projects__btn"
+                      rel="noreferrer"
                     >
                       <i className="fas fa-eye"></i> Preview
                     </a>
                     <a
-                      href="https://github.com/Alonso121/teaCozyProject"
+                      href="https://github.com/Alonso121/The-InstaGraham"
+                      target="_blank"
+                      className="projects__btn"
+                      rel="noreferrer"
+                    >
+                      <i className="fab fa-github"></i> Github
+                    </a>
+                  </div>
+                  <p className="projects__description">Basic copy of Instagram to learn about database integration and authentication. (React + mongoDB). Let 30s to load preview.</p>
+                </div>
+
+                <div className="projects__item">
+                  <img src="img/portfolio.png" alt="tea-cozy Project" />
+                  <div className="projects__btns">
+                    <a
+                      href="https://github.com/Alonso121/my-portfolio-nextjs"
                       className="projects__btn"
                       target="_blank"
                       rel="noreferrer"
@@ -134,6 +139,7 @@ const Projects = () => {
                       <i className="fab fa-github"></i> Github
                     </a>
                   </div>
+                  <p className="projects__description">My first portfolio version made with Next JS and Sass. Github link to source code.</p>
                 </div>
                 
               </div>

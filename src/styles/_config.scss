@@ -10,6 +10,9 @@ $secondary-color: #ffc29a;
 @mixin transition-ease {
   transition: all 0.5s ease-in-out;
 }
+@mixin transition-quick {
+  transition: all 0.2s ease-in-out;
+}
 
 @function set-text-color($color) {
   @if (lightness($color) > 40%) {
