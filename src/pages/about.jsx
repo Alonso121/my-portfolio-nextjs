@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Head from 'next/head'
+import Image from 'next/image'
 
 const About = () => {
     return (
@@ -32,27 +33,39 @@ const About = () => {
           <h1 className="text-secondary">Languages and frameworks I use:</h1>
           <div className="languages__pic-container">
             <figure>
-              <img src="img/html-5.png" alt="html5 icon" />
+              <div className="img">
+              <Image src="/img/html-5.png" alt="html5 icon" layout="fill" objectFit="contain" />
+              </div>
               <figcaption>HTML</figcaption>
             </figure>
             <figure>
-              <img src="img/css.png" alt="css icon" />
+              <div className="img">
+              <Image src="/img/css.png" alt="css icon" layout="fill" objectFit="contain"/>
+              </div>
               <figcaption>CSS</figcaption>
             </figure>
             <figure>
-              <img src="img/javascript.png" alt="javascript icon" />
+              <div className="img">
+              <Image src="/img/javascript.png" alt="javascript icon" layout="fill" objectFit="contain"/>
+              </div>
               <figcaption>Javascript</figcaption>
             </figure>
             <figure>
-              <img src="img/react.jpg" alt="react icon" />
+              <div className="img">
+              <Image src="/img/react.png" alt="react icon" layout="fill" objectFit="contain"/>
+              </div>
               <figcaption>React</figcaption>
             </figure>
             <figure>
-              <img src="img/node.jpg" alt="nodejs icon" />
+              <div className="img">
+              <Image src="/img/node.png" alt="nodejs icon" layout="fill" objectFit="contain"/>
+              </div>
               <figcaption>NodeJs</figcaption>
             </figure>
             <figure>
-              <img src="img/mongo.png" alt="mongodb icon" />
+              <div className="img">
+              <Image src="/img/mongo.png" alt="mongodb icon" layout="fill" objectFit="contain"/>
+              </div>
               <figcaption>MongoDB</figcaption>
             </figure>
           </div>
@@ -71,7 +84,9 @@ const About = () => {
               </p>
             </div>
             <Link href="/img/codecademy.png">
-            <img src="img/codecademy1.png" alt="Codecademy Diploma" />
+              <div className="img">
+            <Image layout="fill" objectFit="contain" src="/img/codecademy.png" alt="Codecademy Diploma" />
+              </div>
             </Link>
           </div>
           <div className="edu__institution">
@@ -84,8 +99,10 @@ const About = () => {
                 adds for maximizing our website visits etc.
               </p>
             </div>
-            <Link href="/img/google.jpg">
-            <img src="img/google1.jpg" alt="Google diploma" />
+            <Link href="/img/google.png">
+              <div className="img">
+            <Image layout="fill" objectFit="contain" src="/img/google.png" alt="Google diploma" />
+              </div>
             </Link>
           </div>
           <div className="edu__institution">
@@ -100,11 +117,13 @@ const About = () => {
                 collaboration.
               </p>
             </div>
-            <Link href="/img/eu-certificate.jpg">
-            <img
-              src="img/eu-certificate1.jpg"
+            <Link href="/img/eu-certificate.png">
+              <div className="img">
+            <Image layout="fill" objectFit="contain" src="/img/eu-certificate.png"
               alt="Metropolitan University Diploma"
             />
+              </div>
+              
             </Link>
           </div>
           <div className="edu__institution">
@@ -117,8 +136,10 @@ const About = () => {
                 but also in organizing my other aspects of my life.
               </p>
             </div>
-            <Link href="/img/suny.jpg">
-            <img src="img/suny1.jpg" alt="State University Diploma" />
+            <Link href="/img/suny.png">
+              <div className="img">
+            <Image layout="fill" objectFit="contain" src="/img/suny.png" alt="State University Diploma" />
+              </div>
             </Link>
           </div>
         </div>
@@ -165,7 +186,7 @@ const About = () => {
         </div>
         <Link href="">
         <div className="to-top">
-            <img src="img/back-to-top.png" alt="back to top" />
+            <Image src="/img/back-to-top.png" alt="back to top" layout="fill" />
         </div>
         </Link>
         <footer>&copy; Copyright 2021</footer>

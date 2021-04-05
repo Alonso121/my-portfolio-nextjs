@@ -5,7 +5,7 @@
   &__bio-image {
     height: 30vh;
     width: 100%;
-    @include linear-gradient("/img/background.jpg");
+    @include linear-gradient("/img/background.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -31,6 +31,11 @@
     border-bottom: 5px solid $secondary-color;
     margin: 2rem;
     overflow: hidden;
+
+    &__img {
+      width: 320px;
+      height: 280px;
+    }
 
     &::after {
       content: "";

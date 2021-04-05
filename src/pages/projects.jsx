@@ -21,7 +21,7 @@ const Projects = () => {
 
               <div className="projects__item">
                   <div className="projects__item__img">
-                    <Image src="/img/dardha.png" alt="Dardha-al website" width={300} height={263}/>
+                    <Image src="/img/dardha.png" alt="Dardha-al website" layout="fill" priority />
                   </div>
                   <div className="projects__btns">
                     <a
@@ -38,7 +38,7 @@ const Projects = () => {
 
               <div className="projects__item">
                   <div className="projects__item__img">
-                    <Image src="/img/recipe-finder.png" alt="Recipe-finder Project" width={300} height={263}/>
+                    <Image src="/img/recipe-finder.png" alt="Recipe-finder Project" layout="fill" priority />
                   </div>
                   <div className="projects__btns">
                     <a
@@ -63,7 +63,7 @@ const Projects = () => {
                 
                 <div className="projects__item">
                   <div className="projects__item__img">
-                    <Image src="/img/Simple-Task-App.png" alt="Simple-Task-App Project" width={300} height={263}/>
+                    <Image src="/img/Simple-Task-App.png" alt="Simple-Task-App Project" layout="fill" priority />
                   </div>
                   <div className="projects__btns">
                     <a
@@ -90,7 +90,7 @@ const Projects = () => {
 
                 <div className="projects__item">
                   <div className="projects__item__img">
-                    <Image src="/img/flexbox-site.png" alt="My flexbox-site Project" width={300} height={263}/>
+                    <Image src="/img/flexbox-site.png" alt="My flexbox-site Project" layout="fill" priority />
                   </div>
                   <div className="projects__btns">
                     <a
@@ -115,7 +115,7 @@ const Projects = () => {
 
                 <div className="projects__item">
                   <div className="projects__item__img">
-                    <Image src="/img/instagraham.png" alt="Instagraham Project" width={300} height={263}/>
+                    <Image src="/img/instagraham.png" alt="Instagraham Project" layout="fill" priority />
                   </div>
                   <div className="projects__btns">
                     <a
@@ -140,7 +140,7 @@ const Projects = () => {
 
                 <div className="projects__item">
                   <div className="projects__item__img">
-                    <Image src="/img/portfolio.png" alt="my portfolio" width={300} height={263}/>
+                    <Image src="/img/portfolio.png" alt="my portfolio" layout="fill" priority />
                   </div>
                   <div className="projects__btns">
                     <a
