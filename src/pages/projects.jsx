@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Head from 'next/head'
+import Image from 'next/image'
 const Projects = () => {
     return (
         <div>
@@ -19,7 +20,9 @@ const Projects = () => {
               <div className="projects__items">
 
               <div className="projects__item">
-                  <img src="img/dardha.png" alt="Dardha-al website" />
+                  <div className="projects__item__img">
+                    <Image src="/img/dardha.png" alt="Dardha-al website" width={300} height={263}/>
+                  </div>
                   <div className="projects__btns">
                     <a
                       href="https://dardha-al.vercel.app/"
@@ -34,7 +37,9 @@ const Projects = () => {
                 </div>
 
               <div className="projects__item">
-                  <img src="img/recipe-finder.jpg" alt="Recipe-finder Project" />
+                  <div className="projects__item__img">
+                    <Image src="/img/recipe-finder.png" alt="Recipe-finder Project" width={300} height={263}/>
+                  </div>
                   <div className="projects__btns">
                     <a
                       href="https://my-awesome-recipe-finder.netlify.app"
@@ -57,7 +62,9 @@ const Projects = () => {
                 </div>
                 
                 <div className="projects__item">
-                  <img src="img/Simple-Task-App.png" alt="Simple-Task-App Project" />
+                  <div className="projects__item__img">
+                    <Image src="/img/Simple-Task-App.png" alt="Simple-Task-App Project" width={300} height={263}/>
+                  </div>
                   <div className="projects__btns">
                     <a
                       href="https://the-simple-task.herokuapp.com/signin"
@@ -82,7 +89,9 @@ const Projects = () => {
                 
 
                 <div className="projects__item">
-                  <img src="img/flexbox-site.jpg" alt="My flexbox-site Project" />
+                  <div className="projects__item__img">
+                    <Image src="/img/flexbox-site.png" alt="My flexbox-site Project" width={300} height={263}/>
+                  </div>
                   <div className="projects__btns">
                     <a
                       href="https://6058b42539397c00d6f56dfa--determined-neumann-a69a3c.netlify.app"
@@ -105,7 +114,9 @@ const Projects = () => {
                 </div>
 
                 <div className="projects__item">
-                  <img src="img/instagraham.jpg" alt="Instagraham Project" />
+                  <div className="projects__item__img">
+                    <Image src="/img/instagraham.png" alt="Instagraham Project" width={300} height={263}/>
+                  </div>
                   <div className="projects__btns">
                     <a
                       href="https://the-instagraham.herokuapp.com"
@@ -128,7 +139,9 @@ const Projects = () => {
                 </div>
 
                 <div className="projects__item">
-                  <img src="img/portfolio.png" alt="tea-cozy Project" />
+                  <div className="projects__item__img">
+                    <Image src="/img/portfolio.png" alt="my portfolio" width={300} height={263}/>
+                  </div>
                   <div className="projects__btns">
                     <a
                       href="https://github.com/Alonso121/my-portfolio-nextjs"

@@ -19,21 +19,18 @@
   }
 
   &__items {
-    width: 70vw;
-    margin: 2rem auto 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
+    width: 100%;
+    margin: 2rem auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   &__item {
     position: relative;
     border-bottom: 5px solid $secondary-color;
+    margin: 2rem;
     overflow: hidden;
-
-    img {
-      width: 100%;
-    }
 
     &::after {
       content: "";
