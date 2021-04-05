@@ -157,10 +157,10 @@ const Projects = () => {
                 
               </div>
               <Link href="">
-        <div className="to-top">
-            <img src="img/back-to-top.png" alt="back to top" />
-        </div>
-        </Link>
+                <div className="to-top">
+                  <Image src="/img/back-to-top.png" alt="back to top" layout="fill" />
+                </div>
+              </Link>
               <footer>&copy; Copyright 2021</footer>
             </section>
           </main>
