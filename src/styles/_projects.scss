@@ -28,6 +28,7 @@
 
   &__item {
     position: relative;
+    border: 2px solid $secondary-color;
     border-bottom: 5px solid $secondary-color;
     margin: 2rem;
     overflow: hidden;
