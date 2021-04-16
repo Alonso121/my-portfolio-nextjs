@@ -5,7 +5,7 @@ const Icons = () => {
     const route = useRouter()
 
     return (
-        <div className='social-icons '>
+        <div className='my-social-icons '>
             <a href="https://twitter.com/TahiriAlison" target="_blank" alt="twitter link" rel="noreferrer">
               <div className="fa-2x">
                 <Image layout="fill" src="/img/twitter.png" alt="twitter icon" />

@@ -25,7 +25,7 @@ const Projects = () => {
                   </div>
                   <div className="projects__btns">
                     <a
-                      href="https://dardha-al.vercel.app/"
+                      href="https://dardha.al/"
                       className="projects__btn"
                       target="_blank"
                       rel="noreferrer"
