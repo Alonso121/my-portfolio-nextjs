@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   @include linear-gradient("/img/background.jpg");
+  background-blend-mode: multiply;
   background-size: cover;
   animation-name: appear;
   animation-duration: 2s;

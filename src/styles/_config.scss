@@ -56,12 +56,3 @@ $background-color: #08081d;
     opacity: 1;
   }
 }
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 3px white;
-  }
-  100% {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.096);
-  }
-}

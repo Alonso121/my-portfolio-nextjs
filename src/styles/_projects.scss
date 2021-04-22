@@ -6,6 +6,7 @@
     height: 30vh;
     width: 100%;
     @include linear-gradient("/img/background.jpg");
+    background-blend-mode: multiply;
     background-size: cover;
     display: flex;
     flex-direction: column;

@@ -6,7 +6,7 @@
   text-align: center;
   @include linear-gradient("/img/background.jpg");
   background-size: cover;
-  /* background-color: $background-color; */
+  background-blend-mode: multiply;
 
   &__name {
     font-size: 3rem;
