@@ -40,7 +40,7 @@ const Nav = () => {
             <li className={`menu-nav__item ${showMenu ? "open" : ""} ${route.pathname === '/contact' ? 'active' : ''}`}>
               <Link href="/contact">
               <a  className="menu-nav__link">
-                Contact Me
+                Contact
               </a>
               </Link>
             </li>

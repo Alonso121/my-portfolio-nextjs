@@ -4,14 +4,17 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  @include linear-gradient("/img/background.png");
+  @include linear-gradient("/img/background.jpg");
   background-size: cover;
+  /* background-color: $background-color; */
 
   &__name {
     font-size: 3rem;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     border-bottom: 2px solid set-text-color($primary-color);
+    animation-name: appear;
+    animation-duration: 3s;
 
     &--last {
       color: $secondary-color;

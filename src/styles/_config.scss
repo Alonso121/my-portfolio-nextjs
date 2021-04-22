@@ -1,5 +1,6 @@
-$primary-color: #272727;
-$secondary-color: #ffc29a;
+$primary-color: #2d0196;
+$secondary-color: hsl(239, 100%, 71%);
+$background-color: #08081d;
 
 * {
   box-sizing: border-box;
@@ -9,11 +10,11 @@ $secondary-color: #ffc29a;
 
 @mixin linear-gradient($url) {
   background: linear-gradient(
-      to right,
-      rgba($primary-color, 0.5),
-      rgba($primary-color, 0.3)
+      130deg,
+      rgba($primary-color, 0.8),
+      rgba($background-color, 0.9)
     ),
-    url($url) center top;
+    url($url) center bottom;
 }
 
 @mixin transition-ease {
@@ -24,8 +25,8 @@ $secondary-color: #ffc29a;
 }
 
 @function set-text-color($color) {
-  @if (lightness($color) > 40%) {
-    @return #000;
+  @if (lightness($color) > 50%) {
+    @return $primary-color;
   } @else {
     @return #fff;
   }
@@ -44,5 +45,23 @@ $secondary-color: #ffc29a;
 @mixin media-xl {
   @media screen and (min-width: 1350px) {
     @content;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 3px white;
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.096);
   }
 }

@@ -2,12 +2,14 @@
   position: relative;
   padding-bottom: 4rem;
   padding-top: 1rem;
-  background: linear-gradient(
+  /*   background: linear-gradient(
       to right,
       rgba($primary-color, 0.9),
       rgba($primary-color, 0.6)
     ),
-    url("/img/background.png") center top;
+    url("/img/background.png") center top; */
+  background-color: $background-color;
+
   background-size: cover;
 
   .text-secondary {
@@ -34,8 +36,8 @@
   }
 
   &__bio-image {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
   }
@@ -56,6 +58,8 @@
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+      animation-name: appear;
+      animation-duration: 3s;
 
       figure {
         margin: 0.5rem 1.2rem;

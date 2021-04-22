@@ -12,7 +12,7 @@ const Contact = () => {
 
     <main>
       <section className="contact">
-        <h2>Contact Me:</h2>
+        <h2>Let's get in touch:</h2>
 
         <ul className="contact__list">
           <li>
@@ -28,8 +28,8 @@ const Contact = () => {
             <div className="text-secondary">Gramoz Pashko St., Tirana, Albania</div>
           </li>
         </ul>
-        <footer>&copy; Copyright 2021</footer>
       </section>
+        <footer>&copy; Copyright 2021</footer>
     </main>
 
         </div>

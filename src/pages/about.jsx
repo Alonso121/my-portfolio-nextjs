@@ -24,7 +24,7 @@ const About = () => {
             <p>
               I'm a Tirana based Web Developer. I am a former Business Manager
               with an absolute love for coding. I have a strong commitment in
-              learning new things and challenge myself with new technologies..
+              learning new things and challenge myself with new technologies.
             </p>
           </div>
         </div>

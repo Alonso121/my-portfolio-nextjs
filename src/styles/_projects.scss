@@ -5,7 +5,7 @@
   &__bio-image {
     height: 30vh;
     width: 100%;
-    @include linear-gradient("/img/background.png");
+    @include linear-gradient("/img/background.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -24,12 +24,15 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    animation-name: appear;
+    animation-duration: 2s;
   }
 
   &__item {
     position: relative;
-    border: 2px solid $secondary-color;
     border-bottom: 5px solid $secondary-color;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(173, 173, 173);
     margin: 2rem;
     overflow: hidden;
 
@@ -53,7 +56,7 @@
     &:hover {
       &::after {
         top: 0;
-        opacity: 0.9;
+        opacity: 0.95;
       }
       .projects__btn,
       .projects__description {
@@ -96,7 +99,7 @@
     color: set-text-color($secondary-color);
     z-index: 1;
     width: 80%;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.5;
     font-style: italic;
     cursor: default;

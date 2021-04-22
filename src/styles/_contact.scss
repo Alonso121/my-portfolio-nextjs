@@ -5,8 +5,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include linear-gradient("/img/background.png");
+  @include linear-gradient("/img/background.jpg");
   background-size: cover;
+  animation-name: appear;
+  animation-duration: 2s;
 
   h2 {
     font-size: 3rem;
